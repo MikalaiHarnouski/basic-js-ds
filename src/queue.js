@@ -27,7 +27,7 @@ class Queue {
     }
 
     enqueue(value) {
-        var tmp = new ListNode(value);
+        let tmp = new ListNode(value);
         if (this.first == null) {
             this.first = tmp;
         } else {
